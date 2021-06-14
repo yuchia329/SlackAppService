@@ -28,7 +28,7 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
 5. Now you can talk to your Slackapp
 
 ## Directory Tree
-
+```bash
 ├── LICENSE
 ├── README.md
 ├── config.js
@@ -54,7 +54,7 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
     ├── postMessage.js
     ├── responseModel.js
     └── test.js
-
+```
 
 ## Add SlackBot Command
 
