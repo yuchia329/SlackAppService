@@ -1,0 +1,63 @@
+{
+    "channel": "UserID",
+	"attachments": [
+		{
+			"color": "#f2c744",
+			"blocks": [
+				{
+					"type": "header",
+					"text": {
+						"type": "plain_text",
+						"text": "List All Actions",
+						"emoji": true
+					}
+				},
+				{
+					"type": "actions",
+					"elements": [
+						{
+							"type": "button",
+							"text": {
+								"type": "plain_text",
+								"emoji": true,
+								"text": "Email"
+							},
+							"style": "primary",
+							"value": "emailTypes"
+						},
+						{
+							"type": "button",
+							"text": {
+								"type": "plain_text",
+								"emoji": true,
+								"text": "Clock In"
+							},
+							"style": "primary",
+							"value": "clockIn"
+						},
+						{
+							"type": "button",
+							"text": {
+								"type": "plain_text",
+								"emoji": true,
+								"text": "Clock Out"
+							},
+							"style": "primary",
+							"value": "clockOut"
+						},
+						{
+							"type": "button",
+							"text": {
+								"type": "plain_text",
+								"emoji": true,
+								"text": "Cancel"
+							},
+							"style": "danger",
+							"value": "cancel"
+						}
+					]
+				}
+			]
+		}
+	]
+}

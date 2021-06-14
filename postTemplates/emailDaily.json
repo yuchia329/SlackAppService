@@ -1,0 +1,60 @@
+{
+	"blocks": [
+		{
+			"type": "input",
+			"element": {
+				"type": "plain_text_input",
+				"multiline": true,
+				"action_id": "sendDailyEmail"
+			},
+			"label": {
+				"type": "plain_text",
+				"text": "Content",
+				"emoji": true
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Send",
+						"emoji": true
+					},
+					"style": "primary",
+					"value": "sendDailyEmail"				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Cancel",
+						"emoji": true
+					},
+					"style": "danger",
+					"value": "cancel"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "Example format",
+				"emoji": true
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "plain_text",
+				"text": "[SCU] Algolia 文件不想寫\n[SCU] 我只想交差下班\n[DOC] 我不想寫不想寫不想寫\n[DOC] 哎又要寫文件\n [SCU] App爛就爛\n未分類的鳥事\n[1999] 系統又壞掉還不是靠我修",
+				"emoji": true
+			}
+		}
+	]
+}

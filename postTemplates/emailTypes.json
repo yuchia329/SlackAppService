@@ -1,0 +1,72 @@
+{
+    "channel": "UserID",
+	"attachments": [
+		{
+			"color": "#f2c744",
+			"blocks": [
+				{
+					"type": "header",
+					"text": {
+						"type": "plain_text",
+						"text": "Choose your email type",
+						"emoji": true
+					}
+				},
+				{
+					"type": "actions",
+					"elements": [
+						{
+							"type": "button",
+							"text": {
+								"type": "plain_text",
+								"emoji": true,
+								"text": "Daily"
+							},
+							"style": "primary",
+							"value": "emailDaily"
+						},
+						{
+							"type": "button",
+							"text": {
+								"type": "plain_text",
+								"emoji": true,
+								"text": "Weekly"
+							},
+							"style": "primary",
+							"value": "emailWeekly"
+						},
+                        {
+							"type": "button",
+							"text": {
+								"type": "plain_text",
+								"emoji": true,
+								"text": "Custom"
+							},
+							"style": "primary",
+							"value": "emailCustom"
+						},
+						{
+							"type": "button",
+							"text": {
+								"type": "plain_text",
+								"emoji": true,
+								"text": "Help"
+							},
+							"value": "help"
+						},
+                        {
+							"type": "button",
+							"text": {
+								"type": "plain_text",
+								"emoji": true,
+								"text": "Cancel"
+							},
+							"style": "danger",
+							"value": "cancel"
+						}
+					]
+				}
+			]
+		}
+	]
+}
